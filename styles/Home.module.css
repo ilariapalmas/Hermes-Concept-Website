@@ -1,0 +1,123 @@
+
+
+.container {
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 0;
+  flex: 1;
+  display: inline-block;
+  background-color: #cec3be;
+}
+
+.main {
+  margin-left: 0.5em;
+  margin-top: 1em;
+  font-size: 3rem;
+  font-weight: 700;
+  align-content: flex-start;
+  word-wrap:break-word;
+
+}
+
+.header {
+  display: flex; 
+  justify-content: flex-start;
+  margin-top: 40em; 
+  left: 20px;
+  width: 20em;
+  height: fit-content;
+  text-align: justify; 
+  word-wrap: break-word;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 30px 14px;
+  text-align: center;
+
+}
+.navbar a {
+  color: black;
+  margin-right: 1.5rem;
+  border-bottom: 3px solid transparent;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 400;
+  z-index: 2;
+}
+
+.navbar a:hover {
+  border-bottom:1px solid #000000;
+}
+
+.navbar a:active {
+  border-bottom: 1px solid #000000;
+}
+
+.dot{
+  content: "•";
+  vertical-align: top;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.writing {
+  font-size: 100px;
+  color: white;
+  font-weight: 900;
+}
+
+.watch {
+  position: absolute;
+  z-index: 10;
+  top: 30px;
+  left: 1000px;
+}
+
+.adv {
+  font-weight: 300;
+  text-align: left; 
+  word-wrap:break-word; 
+  text-align: justify;
+  width: 20em; 
+  color: black;
+  height: 20em;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding:0;
+  font-size: 1.5rem;
+}
+
+.adv2 {
+  font-weight: 300;
+  text-align: left; 
+  word-wrap:break-word; 
+  text-align: justify;
+  width: 20em; 
+  color: black;
+  height: 20em;
+  margin-left: 20em;
+  margin-top: 20em;
+  margin-bottom: 0;
+  padding:0;
+  font-size:2rem;
+}
+
+.button {
+  border: solid 1px black; 
+  background-color: transparent; 
+  color: black; 
+  border-radius: 1px;
+  padding-left: 10px;
+  padding-right: 40px; 
+  padding-top: 20px; 
+  padding-bottom: 20px;
+  margin-right: 5em;
+  margin-top: 20em; 
+  float: left;
+}
+
